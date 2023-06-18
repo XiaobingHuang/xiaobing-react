@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {Button, Layout} from 'antd';
+
 
 function Home() {
   return (
     <div>
-      Home
+      <Button type='primary'>button</Button>
     </div>
   )
 }
