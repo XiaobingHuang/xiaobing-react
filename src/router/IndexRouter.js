@@ -9,7 +9,7 @@ import {
   } from "react-router-dom";
 function IndexRouter() {
   return (
-    <div>
+    
     <Router>
     <Switch>
          <Route path="/login" component={Login}/>
@@ -20,7 +20,7 @@ function IndexRouter() {
          }/>
      </Switch>
   </Router>
-</div>
+
   )
 }
 export default IndexRouter
